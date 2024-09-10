@@ -1,0 +1,43 @@
+
+
+/* Mobile */
+@media (max-width: 767px) {}
+
+
+/* ios */
+@media (max-width: 340px) {}
+
+/* windows */
+@media (min-width: 451px) and (max-width: 767px) {}
+
+
+/*tab portrait */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/*tab landscape*/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* 1280 resolution */
+@media (min-width: 1280px) and (max-width: 1365px) {}
+
+
+/* large screen */
+@media (min-width: 1400px) {}
+
+@media (min-width: 1440px) and (max-width: 1599px) {}
+
+/*Large */
+@media (min-width: 1600px) {}
+
+
+@media (min-width: 1920px) {}
+
+
+/* ie */
+@media all and (-ms-high-contrast:none) {}
+
+
+/* FireFox */
+@-moz-document url-prefix() {}
