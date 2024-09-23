@@ -4,7 +4,6 @@
     <div class="row">
         <div class="col-12">
             <h1>Manage Teachers</h1>
-            <a href="{{ route('REGstudent') }}" class="btn btn-success">Register Teacher</a>
 
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -12,29 +11,7 @@
             </button>
         </div>
         <div class="col-12">
-            {{-- <table id="myTable" class="display">
-                <thead>
-                    <tr>
-                        <th>Column 1</th>
-                        <th>Column 2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>shanuk</td>
-                        <td>Row 1 Data 2</td>
-                    </tr>
-                    <tr>
-                        <td>nadee</td>
-                        <td>Row 2 Data 2</td>
-                    </tr>
-                </tbody>
-            </table> --}}
-
             <div id="Show_all_teacherdata"></div>
-
-
-
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">

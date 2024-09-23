@@ -15,6 +15,10 @@ Route::get('/teacher', function () {
 })->name('teacher');
 
 
+Route::get('/staff', function () {
+    return view('staff.index');
+})->name('staff');
+
 
 Route::prefix('/student')->group(function(){
     Route::get('/', [StudentController::class, 'index'])->name('Viewstudent');
