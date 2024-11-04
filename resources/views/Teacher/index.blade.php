@@ -292,5 +292,24 @@
             color: black;
             font-size: 20px;
         }
+        
+        h1 {
+            color: red;
+            text-align: center;
+            font-weight: 700;
+            font-size: 50px;
+        }
+
+        .table tbody i {
+            margin-right: 15px;
+        }
+
+        .table tbody .fa-trash-alt {
+            color: red;
+        }
+
+        .table tbody .fa-id-card {
+            color: green;
+        }
     </style>
 @endpush
